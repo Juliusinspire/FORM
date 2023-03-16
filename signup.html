@@ -3,16 +3,77 @@
 <head>
     <title>Signup</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
     <script src="/js/validation.js" defer></script>
+    <link rel="icon" href="html.FAMILY 20230309_015639" type="image/x-icon">
 </head>
 <body>
-    
-    <h1>Signup</h1>
-    
+    <style>
+        body{
+            background-image: url('html.FAMILY 20230309_015639.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+       form {
+            /* margin: 50px auto;
+             width: 150px;*/
+             padding: 0px 70px;
+             border-color: ;
+             border: 5px;
+/*             background-color: black;*/
+             text-align: center;
+             margin: 0 auto;
+             width: 50%;
+             border-radius: 100px;
+/*             background-image: url('img/2349067019742_status_fd6ece32634a42f48d49461246eebceb.jpg');*/
+
+
+        }
+        input{
+
+/*            width: 200px;*/
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            box-sizing: border-box;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+
+
+        }
+        /* h1{
+             color: red;
+            margin: 0px auto 25px;
+            font-size: 50px;
+            font-weight: 30;
+            text-align: center;
+         }*/
+          p{
+            margin: 50px auto;
+            width: 150px;
+            padding: 10px 10px;
+            background: ;
+            color: black;
+             
+          }
+           label{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+
+           }
+            a{
+                color: red;
+            }
+
+
+    </style>
     <form action="process-signup.php" method="post" id="signup" novalidate>
         <div>
+             <h1>Signup</h1>
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
         </div>
@@ -31,9 +92,10 @@
             <label for="password_confirmation">Repeat password</label>
             <input type="password" id="password_confirmation" name="password_confirmation">
         </div>
-        
+        <br>
         <button>Signup</button>
     </form>
-    
+
+    <p><a href="login.php">Already a member?</a></p>
 </body>
 </html>
