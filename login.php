@@ -45,9 +45,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
     <style>
         body{
-            background-image: url('html.FAMILY 20230309_015639.jpg');
-            background-size: cover;
-            background-position: center;
+            background-image: url('logo.jpg');
+            background-size: 50px;
+            background-position: ;
         }
         form{
              margin: 0 auto;
@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             margin: 0 auto;
             width: 50%;
             text-align: center;
-            color: red;
+            color: white;
           }
            h2{
              margin: 0 auto;
@@ -90,16 +90,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             }
              a{
-                color: red;
+                color: white;
                 font-size: 20px;
              }
               h4{
                 text-align: center;
                 color: white;
               }
-               h3{
-                text-align: center;
-               }
+               
 
 
     </style>
